@@ -20,7 +20,7 @@ body {
 	left: 0;
 	margin: auto;
 	transform-style: preserve-3d;
-	transform: rotateX(49deg);
+	transform: rotateX(80deg);
 }
 
 .month {
@@ -37,12 +37,12 @@ body {
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-duration: 13s;
-	transform: rotateZ(0deg) translate(400px);
+	transform: rotateZ(0deg) rotateX(90deg) translate(400px);
 }
 
 @keyframes run {
 	100% {
-		transform: rotateZ(360deg) translate(400px);
+		transform: rotateZ(360deg) rotateX(90deg) translate(400px);
 	}
 }
 
@@ -64,7 +64,7 @@ body {
 	bottom: 0;
 	left: 0;
 	margin: auto;
-	transform: rotateX(313deg)
+	transform: rotateX(285deg)
 }
 
 .earth-1 {
